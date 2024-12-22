@@ -1,0 +1,29 @@
+/* Estilos globales básicos */
+
+/* Reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+margin: 0
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+margin: 0;
+
+}
+.type--grass{
+  background-color: #9aeeb6; /* Color de fondo verde */
+}
