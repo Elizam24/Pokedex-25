@@ -1,0 +1,73 @@
+.home {
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    position: relative; /* Para posicionar la imagen de fondo */
+    color: rgb(239, 247, 243); /* Color del texto */
+}
+
+.home_image {
+    position: absolute; /* Para que la imagen ocupe todo el contenedor */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://wallpapers.com/images/high/pokemon-battle-background-snpr84zisrk1qj2b.webp'); /* URL de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    
+    
+}
+
+.home_content {
+    position: relative; /* Para que el contenido esté por encima de la imagen */
+    z-index: 1; /* Asegura que el contenido esté por encima de la imagen */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+   /* background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: x-large;
+    font-weight: bold; /* O puedes usar 700 */
+    
+}
+
+.home_title {
+    font-size: 2em; /* Tamaño del título */
+    color: #fff;
+    margin-bottom: 1em; /* Espacio debajo del título */
+}
+
+.home_text, .home_text1 {
+    margin: 0.3em 0; /* Espaciado entre los textos */
+}
+
+.home_input {
+    border: 2px solid #ccc; /* Borde del input */
+    padding: 0.5em; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 0.5em; /* Espacio a la derecha del input */
+}
+
+.home_btn {
+    background-color: rgb(241, 47, 47); /* Color de fondo del botón */
+    border: transparent; /* Sin borde */
+    padding: 1em 2em  ; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #fff; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s ease-in-out; /* Transición suave para el hover */
+}
+
+.home_btn:hover {
+    background-color: rgb(224, 190, 190); /* Color del botón al pasar el mouse */
+}
+
+.home_link {
+    color: rgb(196, 120, 7); /* Color del enlace */
+    font-size: 50px; /* Tamaño del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.home_link:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}

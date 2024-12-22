@@ -20,5 +20,4 @@ export const tipos = {
     stellar: 'estelar',
     unknown: 'desconocido',
     shadow: 'sombra',
-
-    
+}
